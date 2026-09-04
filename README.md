@@ -6,15 +6,9 @@
 
 ![SlideMorph Interface](images/home.png)
 
----
-
-# 🎥 SlideMorph Demo
-
-[![Watch the SlideMorph Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-*Click the image above to watch SlideMorph in action.*
 
 ---
+
 
 # 1. What Is SlideMorph?
 
@@ -24,7 +18,7 @@ Most AI presentation tools produce static text slides. SlideMorph goes further: 
 
 This is not a cosmetic add-on; it is the architectural foundation of every template in the app.
 
-![SlideMorph Presentation](./screenshots/morph-example.png)
+![SlideMorph Interface](images/aurora 1.png)
 
 ---
 
@@ -36,7 +30,10 @@ The user experience follows a simple five-step flow.
 
 Choose from four professionally designed templates — **Neon, Aurora, Frost, or Nova**. Each template has its own visual style and is specifically engineered for Morph transitions.
 
-![Template Selection](./screenshots/templates.png)
+![SlideMorph Interface](images/select templates.png)
+
+![SlideMorph Interface](images/templates 2.png)
+
 
 ---
 
@@ -60,7 +57,7 @@ Set the deck length, depth level, and presentation type before generation.
 - Coding
 - Math
 
-![Presentation Configuration](./screenshots/configuration.png)
+![SlideMorph Interface](images/choose options.png)
 
 ---
 
@@ -81,11 +78,10 @@ SlideMorph accepts:
 
 Up to **five sources** can be combined in a single generation.
 
-![Content Input](./screenshots/input-sources.png)
+![SlideMorph Interface](images/prompt.png)
 
 Multiple sources can be combined into a single presentation, allowing SlideMorph to build a more complete understanding of the topic.
 
-![Multiple Sources](./screenshots/multi-source.png)
 
 ---
 
@@ -95,7 +91,7 @@ SlideMorph analyzes the provided material, filters irrelevant information, build
 
 The generation process is shown through a live progress interface so the user can follow what the system is doing.
 
-![AI Generation](./screenshots/generation.png)
+![SlideMorph Interface](images/presentation generation.png)
 
 ---
 
@@ -105,9 +101,9 @@ Once generation is complete, the presentation can be browsed directly inside the
 
 Text can be edited directly from the browser before exporting the final presentation.
 
-![Slide Preview](./screenshots/preview.png)
+![SlideMorph Interface](images/preview.png)
 
-![Inline Editor](./screenshots/editor.png)
+![SlideMorph Interface](images/edit.png)
 
 ---
 
@@ -119,13 +115,11 @@ When the presentation is ready, SlideMorph provides two export options.
 
 Download the complete `.pptx` presentation with the layouts, fonts, and Morph transitions preserved.
 
-![PowerPoint Export](./screenshots/pptx-export.png)
-
 ### Word Document
 
 The presentation content can also be exported as a `.docx` document containing the slide headings and bullet points.
 
-![Word Export](./screenshots/docx-export.png)
+![SlideMorph Interface](images/export.png)
 
 ---
 
@@ -148,11 +142,7 @@ It supports:
 
 Up to five sources can be combined in a single generation.
 
-A two-level filtering system automatically removes irrelevant material before the presentation is generated.
-
-![Multi-Source Input](./screenshots/multi-source.png)
-
-Sources are also identified and grouped intelligently. For example, sequential pages of scanned notes can be treated as one document rather than unrelated individual sources.
+A two-level filtering system automatically removes irrelevant material before the presentation is generated. Sources are also identified and grouped intelligently. For example, sequential pages of scanned notes can be treated as one document rather than unrelated individual sources.
 
 ---
 
@@ -164,8 +154,6 @@ SlideMorph provides three specialized generation modes.
 
 General Mode produces clear, accessible presentation content suitable for a wide range of subjects.
 
-![General Mode](./screenshots/general-mode.png)
-
 ---
 
 ## 💻 Coding Mode
@@ -174,7 +162,7 @@ Coding Mode is designed for technical and programming presentations.
 
 It generates code-heavy slides with complete, properly indented code examples using fixed-width formatting.
 
-![Coding Mode](./screenshots/coding-mode.png)
+![SlideMorph Interface](images/coding .png)
 
 ---
 
@@ -193,7 +181,9 @@ Equations and derivations are rendered as real mathematics, including:
 
 The mathematics rendering system is built into the application and does not require a separate LaTeX installation.
 
-![Math Mode](./screenshots/math-mode.png)
+![SlideMorph Interface](images/math 1.png)
+
+![SlideMorph Interface](images/math 2.png)
 
 ---
 
@@ -216,15 +206,15 @@ Elements are deliberately:
 
 so that PowerPoint's Morph engine can identify matching shapes and understand how they should transform between slides.
 
-![Morph Slide Sequence](./screenshots/morph-sequence.png)
+![SlideMorph Interface](images/aurora 1.png)
 
 Instead of every slide feeling like a separate page, elements can move naturally from one state to another.
 
-![Morph Example](./screenshots/morph-example.png)
+![SlideMorph Interface](images/aurora 2.png)
 
 Shapes glide, transform, resize, rotate, and reposition between slides, creating visual continuity throughout the presentation.
 
-![Morph Transition](./screenshots/morph-transition.png)
+![SlideMorph Interface](images/frost 1.png)
 
 Creating templates with this level of Morph continuity requires careful per-slide motion and composition design. The transitions are therefore part of the architecture of the templates rather than a cosmetic effect added afterward.
 
@@ -240,14 +230,9 @@ SlideMorph supports four presentation lengths:
 - **Complete — 22 slides**
 
 The engine automatically builds the appropriate slide sequence for the selected length.
-
-![Deck Length](./screenshots/deck-length.png)
-
 SlideMorph also measures rendered text against the actual dimensions of each placeholder.
-
 Instead of simply shrinking the font when content becomes too long, the system adjusts the amount and length of content so that it fits the intended template design.
 
-![Adaptive Layout](./screenshots/adaptive-layout.png)
 
 ---
 
@@ -263,7 +248,7 @@ Changes are applied while preserving the template's original:
 - Formatting
 - Animations
 
-![Inline Editor](./screenshots/editor.png)
+![SlideMorph Interface](images/edit.png)
 
 Character limits are enforced based on the actual dimensions of the slide's text boxes, helping ensure that edited content remains within the intended layout.
 
@@ -283,9 +268,6 @@ This helps prevent:
 - Redundant explanations
 
 The result is a presentation that follows a more coherent narrative from beginning to end.
-
-![Presentation Continuity](./screenshots/context-generation.png)
-
 ---
 
 # 4. What Makes SlideMorph Different?
@@ -296,15 +278,12 @@ SlideMorph's templates are purpose-built around PowerPoint Morph transitions.
 
 The goal is not simply to enable Morph, but to deliberately design the relationship between consecutive slides.
 
-![Morph-Engineered Templates](./screenshots/morph-example.png)
 
 ---
 
 ## ∫ Real Mathematics Rendering
 
 Math Mode produces typeset mathematical expressions as rendered images inserted directly into the presentation.
-
-![Mathematics Rendering](./screenshots/math-mode.png)
 
 ---
 
@@ -314,15 +293,11 @@ Documents, images, articles, and other sources can be combined into one presenta
 
 Relevant information is filtered before generation so that unrelated material does not unnecessarily influence the resulting deck.
 
-![Source Assembly](./screenshots/multi-source.png)
-
 ---
 
 ## 📏 Adaptive Content Sizing
 
 Instead of shrinking text until it fits, SlideMorph measures rendered text and adjusts the content itself to work with the intended template font size.
-
-![Adaptive Content](./screenshots/adaptive-layout.png)
 
 ---
 
@@ -332,7 +307,6 @@ Each slide is generated with awareness of its position within the overall presen
 
 Previous and upcoming slide topics are considered to help create continuity throughout the deck.
 
-![Presentation Continuity](./screenshots/context-generation.png)
 
 ---
 
@@ -342,15 +316,12 @@ Previous and upcoming slide topics are considered to help create continuity thro
 
 Upload lecture notes in PDF or DOCX format and generate a structured presentation with the appropriate depth level.
 
-![University Presentation](./screenshots/use-case-education.png)
-
 ---
 
 ## 💻 Technical Project Presentations
 
 Use Coding Mode to generate slides containing complete, properly formatted code examples.
 
-![Technical Presentation](./screenshots/use-case-coding.png)
 
 ---
 
@@ -358,15 +329,12 @@ Use Coding Mode to generate slides containing complete, properly formatted code 
 
 Use Math Mode to present equations, derivations, and worked calculations as properly typeset mathematics.
 
-![Mathematics Presentation](./screenshots/use-case-math.png)
-
 ---
 
 ## 📄 Research Summaries
 
 Upload a research paper or provide an article URL and generate a presentation based on the source material.
 
-![Research Presentation](./screenshots/use-case-research.png)
 
 ---
 
@@ -374,7 +342,6 @@ Upload a research paper or provide an article URL and generate a presentation ba
 
 Combine documents, images of handwritten notes, and online resources into one coherent presentation.
 
-![Multi-Source Presentation](./screenshots/use-case-multisource.png)
 
 ---
 
@@ -400,7 +367,7 @@ The following components are operational:
 - PPTX export
 - DOCX export
 
-![SlideMorph Working Application](./screenshots/application.png)
+
 
 ---
 
@@ -460,7 +427,6 @@ A seven-model Gemini fallback chain handles API rate limits transparently during
 
 The slide preview system converts the generated PPTX to PDF using LibreOffice and renders the pages with PyMuPDF.
 
-![SlideMorph Technology Architecture](./screenshots/architecture.png)
 
 ---
 
@@ -480,5 +446,4 @@ The slide preview system converts the generated PPTX to PDF using LibreOffice an
 **Live Demo:**  
 https://slidemorph.streamlit.app/
 
-**Demo Video:**  
-https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+
