@@ -4,7 +4,7 @@
 
 **Live at:** https://slidemorph.streamlit.app/
 
-![SlideMorph Interface](./screenshots/interface.png)
+![SlideMorph Interface](images/home.png)
 
 ---
 
