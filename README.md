@@ -153,6 +153,8 @@ SlideMorph provides three specialized generation modes.
 
 General Mode produces clear, accessible presentation content suitable for a wide range of subjects.
 
+![SlideMorph Interface](images/nova.png)
+
 ---
 
 ## 💻 Coding Mode
