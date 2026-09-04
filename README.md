@@ -18,7 +18,7 @@ Most AI presentation tools produce static text slides. SlideMorph goes further: 
 
 This is not a cosmetic add-on; it is the architectural foundation of every template in the app.
 
-![SlideMorph Interface](images/aurora 1.png)
+![SlideMorph Interface](images/aurora%201.png)
 
 ---
 
@@ -30,10 +30,9 @@ The user experience follows a simple five-step flow.
 
 Choose from four professionally designed templates — **Neon, Aurora, Frost, or Nova**. Each template has its own visual style and is specifically engineered for Morph transitions.
 
-![SlideMorph Interface](images/select templates.png)
+![SlideMorph Interface](images/select%20templates.png)
 
-![SlideMorph Interface](images/templates 2.png)
-
+![SlideMorph Interface](images/templates%202.png)
 
 ---
 
@@ -57,7 +56,7 @@ Set the deck length, depth level, and presentation type before generation.
 - Coding
 - Math
 
-![SlideMorph Interface](images/choose options.png)
+![SlideMorph Interface](images/choose%20options.png)
 
 ---
 
@@ -91,7 +90,7 @@ SlideMorph analyzes the provided material, filters irrelevant information, build
 
 The generation process is shown through a live progress interface so the user can follow what the system is doing.
 
-![SlideMorph Interface](images/presentation generation.png)
+![SlideMorph Interface](images/presentation%20generation.png)
 
 ---
 
@@ -162,7 +161,7 @@ Coding Mode is designed for technical and programming presentations.
 
 It generates code-heavy slides with complete, properly indented code examples using fixed-width formatting.
 
-![SlideMorph Interface](images/coding .png)
+![SlideMorph Interface](images/coding%20.png)
 
 ---
 
@@ -181,9 +180,9 @@ Equations and derivations are rendered as real mathematics, including:
 
 The mathematics rendering system is built into the application and does not require a separate LaTeX installation.
 
-![SlideMorph Interface](images/math 1.png)
+![SlideMorph Interface](images/math%201.png)
 
-![SlideMorph Interface](images/math 2.png)
+![SlideMorph Interface](images/math%202.png)
 
 ---
 
@@ -206,15 +205,15 @@ Elements are deliberately:
 
 so that PowerPoint's Morph engine can identify matching shapes and understand how they should transform between slides.
 
-![SlideMorph Interface](images/aurora 1.png)
+![SlideMorph Interface](images/aurora%201.png)
 
 Instead of every slide feeling like a separate page, elements can move naturally from one state to another.
 
-![SlideMorph Interface](images/aurora 2.png)
+![SlideMorph Interface](images/aurora%202.png)
 
 Shapes glide, transform, resize, rotate, and reposition between slides, creating visual continuity throughout the presentation.
 
-![SlideMorph Interface](images/frost 1.png)
+![SlideMorph Interface](images/frost%201.png)
 
 Creating templates with this level of Morph continuity requires careful per-slide motion and composition design. The transitions are therefore part of the architecture of the templates rather than a cosmetic effect added afterward.
 
